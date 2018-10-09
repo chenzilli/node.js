@@ -1,2 +1,5 @@
 const http = require('http');
-thhp.createSever()
+http.createSever((req,res)=>{
+  res.end('hello world');
+}).listen(8080);
+
